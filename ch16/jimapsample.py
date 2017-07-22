@@ -8,4 +8,4 @@ imap_obj.select_folder('INBOX', readonly=True)
 
 UIDs = imap_obj.search('(SINCE 05-Jul-2014)')
 
-prin(UIDs)
+print(UIDs)
